@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issac Gnana Prakash - Senior Data Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: slideInLeft 1s ease-out;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            animation: slideInRight 1.2s ease-out;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.5s ease-in-out;
+        }
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            animation: fadeInDown 0.7s ease-out;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            animation: fadeInUp 1s ease-out;
+        }
+        .contact-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            animation: fadeInUp 1.5s ease-out;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 40px;
+        }
+        /* Animations */
+        @keyframes slideInLeft {
+            from {transform: translateX(-100%);}
+            to {transform: translateX(0);}
+        }
+        @keyframes slideInRight {
+            from {transform: translateX(100%);}
+            to {transform: translateX(0);}
+        }
+        @keyframes fadeInDown {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fadeInUp {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Issac Gnana Prakash</h1>
+    <p>Senior Data Engineer & Data Analyst</p>
+</header>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a Senior Data Engineer and Data Analyst with over 9 years of experience in data engineering. I have a strong background in analytics, programming, and business operations. I am highly motivated and always eager to solve complex business problems.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming: Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn)</li>
+        <li>Data Engineering: Azure Function Apps, Logic Apps, Databricks, Hadoop, Hive SQL, PySpark</li>
+        <li>Data Visualization: Tableau, Matplotlib, Seaborn</li>
+        <li>Machine Learning: Supervised and Unsupervised Learning, SVM, Random Forest, PCA</li>
+        <li>Cloud: Azure ML Studio, EventHub, API integration</li>
+        <li>Databases: SQL (Oracle, Snowflake, PostgreSQL)</li>
+        <li>Other: Linux & Shell Scripting, Big Data Queries</li>
+    </ul>
+</section>
+
+<section id="experience" class="experience">
+    <h2>Work Experience</h2>
+    <h3>Data Engineer at First Advantage (Sep 2021 - Present)</h3>
+    <ul>
+        <li>Developed ML solutions for high accuracy in candidate verification, reducing Turnaround Time by 40%.</li>
+        <li>Increased revenue by 12% by predicting the best vendor for employment verification.</li>
+        <li>Handled Azure deployments with Bicep and GitHub actions, ensuring zero downtime.</li>
+    </ul>
+
+    <h3>Assistant Manager at Genpact (Mar 2021 - Oct 2021)</h3>
+    <ul>
+        <li>Engineered financial data using advanced technologies to build business models.</li>
+        <li>Increased quarterly Cashflow by 7% and production by 3% through data analysis.</li>
+    </ul>
+
+    <h3>Senior Engineer at Harman Connected Services (May 2018 - Feb 2021)</h3>
+    <ul>
+        <li>Utilized Python and Spark for data analysis, improving model accuracy by 15%.</li>
+        <li>Led migration projects, enhancing data reporting and reducing manual tasks.</li>
+    </ul>
+
+    <h3>Software Engineer at HCL Technologies (Feb 2015 - May 2018)</h3>
+    <ul>
+        <li>Automated manual tasks in banking, improving report submission to FED.</li>
+    </ul>
+</section>
+
+<section id="education" class="education">
+    <h2>Education</h2>
+    <p><strong>PG Diploma in Data Science</strong> - IIIT Bangalore (Dec 2018 - Dec 2019)</p>
+    <p><strong>Bachelor of Engineering in Electronics and Communication</strong> - Sri Krishnadevaraya University (Aug 2010 - Apr 2014)</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>House price prediction using multiple linear regression.</li>
+        <li>Prediction of diabetes patients using logistic regression.</li>
+        <li>Clustering countries for funding using K-Means and hierarchical clustering.</li>
+        <li>Digit recognition with SVM and PCA for dimension reduction.</li>
+    </ul>
+</section>
+
+<section class="contact-info">
+    <h2>Contact Information</h2>
+    <p>Phone: +91 94902 54684</p>
+    <p>Email: <a href="mailto:Issac.prakash@gmail.com">Issac.prakash@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/issacprakash">www.linkedin.com/in/issacprakash</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Issac Gnana Prakash</p>
+</footer>
+
+<script>
+    // Function to add 'visible' class when elements are in viewport
+    function revealOnScroll() {
+        const sections = document.querySelectorAll('section');
+        const revealPoint = 150;
+        
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - revealPoint) {
+                section.classList.add('visible');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+</script>
+
+</body>
+</html>
